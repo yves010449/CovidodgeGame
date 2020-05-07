@@ -86,7 +86,7 @@ public class Game extends Frame implements KeyListener {
         }
     });
 
-    public void score() {   //counts score and increments virus movement speed every 10
+    public void score() {   //counts score and increments virus movement speed 
         if (counter == 10) {
             score++;
             counter = 0;
